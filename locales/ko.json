@@ -1,0 +1,163 @@
+{
+  "app": {
+    "title": "Model Management System",
+    "welcome": "환영합니다, {name}님!",
+    "subtitle": "외국인 모델 통합 관리 시스템"
+  },
+  "nav": {
+    "dashboard": "📊 대시보드",
+    "models": "👤 모델 관리",
+    "schedules": "📅 스케줄 관리",
+    "settlements": "💰 정산 관리"
+  },
+  "auth": {
+    "login": "로그인",
+    "logout": "로그아웃",
+    "email": "이메일",
+    "password": "비밀번호",
+    "login_required": "로그인이 필요합니다.",
+    "login_success": "로그인 성공!",
+    "login_fail": "이메일 또는 비밀번호가 올바르지 않습니다.",
+    "no_permission": "이 페이지에 대한 접근 권한이 없습니다."
+  },
+  "roles": {
+    "ceo": "대표",
+    "team_lead": "팀장",
+    "booker": "부커",
+    "marketing": "마케팅",
+    "accounting": "정산담당"
+  },
+  "model": {
+    "title": "모델 관리",
+    "register": "신규 모델 등록",
+    "edit": "모델 정보 수정",
+    "delete": "모델 삭제",
+    "search": "모델 검색",
+    "filter": "필터",
+    "export_excel": "엑셀 다운로드",
+    "profile_photo": "프로필 사진",
+    "model_name": "활동명",
+    "passport_name": "여권명",
+    "date_of_birth": "생년월일",
+    "nationality": "국적",
+    "gender": "성별",
+    "height": "키 (cm)",
+    "bust": "가슴",
+    "waist": "허리",
+    "hips": "힙",
+    "shoe_size": "신발 사이즈",
+    "mother_agency": "마더 에이전시",
+    "contract_start": "계약 시작일",
+    "contract_end": "계약 종료일",
+    "guarantee": "개런티 (USD)",
+    "mac_rate": "MAC 비율 (%)",
+    "visa_status": "비자 상태",
+    "arrival_date": "입국 예정일",
+    "departure_date": "출국 예정일",
+    "status": "상태",
+    "assigned_booker": "담당 부커",
+    "notes": "비고",
+    "cart": "장바구니",
+    "generate_proposal": "제안서 PDF 생성",
+    "upload_excel": "엑셀 업로드",
+    "download_template": "템플릿 다운로드",
+    "upload_preview": "업로드 미리보기",
+    "bulk_register": "일괄 등록",
+    "upload_success": "{count}건의 모델이 등록되었습니다.",
+    "upload_error": "오류가 있는 행이 {count}건 있습니다.",
+    "upload_section": "엑셀 대량 업로드"
+  },
+  "visa": {
+    "pending": "접수 전",
+    "applied": "접수 완료",
+    "approved": "승인",
+    "expired": "만료"
+  },
+  "model_status": {
+    "pre_arrival": "입국 예정",
+    "active": "활동 중",
+    "departed": "출국 완료",
+    "contract_ended": "계약 종료"
+  },
+  "schedule": {
+    "title": "스케줄 관리",
+    "add": "스케줄 추가",
+    "sync_calendar": "캘린더 동기화",
+    "client_name": "클라이언트",
+    "schedule_date": "촬영 날짜",
+    "hmu_start": "HMU 시작",
+    "shoot_start": "촬영 시작",
+    "shoot_end": "촬영 종료",
+    "total_hours": "총 시간",
+    "work_type": "촬영 유형",
+    "earning": "Earning (USD)",
+    "status": "상태",
+    "complete": "촬영 완료",
+    "scheduled": "예정",
+    "in_progress": "진행 중",
+    "completed": "완료",
+    "cancelled": "취소",
+    "half": "Half",
+    "full": "Full"
+  },
+  "settlement": {
+    "title": "정산 관리",
+    "create": "정산서 생성",
+    "period": "정산 기간",
+    "total_earning": "총 Earning",
+    "mac_amount": "MAC 금액",
+    "total_spending": "총 Spending",
+    "net_amount": "최종 정산 금액",
+    "submit": "제출 (기안)",
+    "approve_first": "1차 승인",
+    "confirm_final": "최종 확정",
+    "reject": "반려",
+    "download_receipt": "영수증 PDF 다운로드",
+    "download_delegation": "위임장 PDF 다운로드",
+    "status": {
+      "draft": "임시저장",
+      "submitted": "기안 제출",
+      "first_approved": "1차 승인",
+      "final_confirmed": "최종 확정"
+    }
+  },
+  "spending": {
+    "add": "지출 항목 추가",
+    "category": "분류",
+    "description": "상세 설명",
+    "amount": "금액 (USD)",
+    "date": "발생일",
+    "categories": {
+      "hospital": "병원비",
+      "sim_card": "유심비",
+      "transport": "교통비",
+      "accommodation": "숙박비",
+      "food": "식비",
+      "other": "기타"
+    }
+  },
+  "dashboard": {
+    "title": "대시보드",
+    "total_models": "전체 모델 수",
+    "active_models": "활동 중 모델",
+    "today_schedules": "오늘의 스케줄",
+    "pending_settlements": "대기 중 정산",
+    "monthly_earning": "이번 달 Earning",
+    "visa_expiring": "비자 만료 임박",
+    "upcoming_arrivals": "입국 예정",
+    "upcoming_departures": "출국 예정"
+  },
+  "common": {
+    "save": "저장",
+    "cancel": "취소",
+    "delete": "삭제",
+    "edit": "수정",
+    "confirm": "확인",
+    "search": "검색",
+    "loading": "불러오는 중...",
+    "no_data": "데이터가 없습니다.",
+    "success": "성공적으로 처리되었습니다.",
+    "error": "오류가 발생했습니다.",
+    "actions": "작업"
+  }
+}

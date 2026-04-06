@@ -1,0 +1,163 @@
+{
+  "app": {
+    "title": "Model Management System",
+    "welcome": "Welcome, {name}!",
+    "subtitle": "Integrated Model Lifecycle Management"
+  },
+  "nav": {
+    "dashboard": "📊 Dashboard",
+    "models": "👤 Models",
+    "schedules": "📅 Schedules",
+    "settlements": "💰 Settlements"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "login_required": "Login required.",
+    "login_success": "Login successful!",
+    "login_fail": "Invalid email or password.",
+    "no_permission": "You do not have permission to access this page."
+  },
+  "roles": {
+    "ceo": "CEO",
+    "team_lead": "Team Lead",
+    "booker": "Booker",
+    "marketing": "Marketing",
+    "accounting": "Accounting"
+  },
+  "model": {
+    "title": "Model Directory",
+    "register": "Register New Model",
+    "edit": "Edit Model",
+    "delete": "Delete Model",
+    "search": "Search Models",
+    "filter": "Filter",
+    "export_excel": "Export to Excel",
+    "profile_photo": "Profile Photo",
+    "model_name": "Stage Name",
+    "passport_name": "Passport Name",
+    "date_of_birth": "Date of Birth",
+    "nationality": "Nationality",
+    "gender": "Gender",
+    "height": "Height (cm)",
+    "bust": "Bust",
+    "waist": "Waist",
+    "hips": "Hips",
+    "shoe_size": "Shoe Size",
+    "mother_agency": "Mother Agency",
+    "contract_start": "Contract Start",
+    "contract_end": "Contract End",
+    "guarantee": "Guarantee (USD)",
+    "mac_rate": "MAC Rate (%)",
+    "visa_status": "Visa Status",
+    "arrival_date": "Arrival Date",
+    "departure_date": "Departure Date",
+    "status": "Status",
+    "assigned_booker": "Assigned Booker",
+    "notes": "Notes",
+    "cart": "Cart",
+    "generate_proposal": "Generate Proposal PDF",
+    "upload_excel": "Upload Excel",
+    "download_template": "Download Template",
+    "upload_preview": "Upload Preview",
+    "bulk_register": "Bulk Register",
+    "upload_success": "{count} models registered successfully.",
+    "upload_error": "{count} rows have errors.",
+    "upload_section": "Bulk Upload via Excel"
+  },
+  "visa": {
+    "pending": "Pending",
+    "applied": "Applied",
+    "approved": "Approved",
+    "expired": "Expired"
+  },
+  "model_status": {
+    "pre_arrival": "Pre-Arrival",
+    "active": "Active",
+    "departed": "Departed",
+    "contract_ended": "Contract Ended"
+  },
+  "schedule": {
+    "title": "Schedule Management",
+    "add": "Add Schedule",
+    "sync_calendar": "Sync Calendar",
+    "client_name": "Client",
+    "schedule_date": "Shoot Date",
+    "hmu_start": "HMU Start",
+    "shoot_start": "Shoot Start",
+    "shoot_end": "Shoot End",
+    "total_hours": "Total Hours",
+    "work_type": "Work Type",
+    "earning": "Earning (USD)",
+    "status": "Status",
+    "complete": "Mark Complete",
+    "scheduled": "Scheduled",
+    "in_progress": "In Progress",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "half": "Half",
+    "full": "Full"
+  },
+  "settlement": {
+    "title": "Settlement Management",
+    "create": "Create Settlement",
+    "period": "Settlement Period",
+    "total_earning": "Total Earning",
+    "mac_amount": "MAC Amount",
+    "total_spending": "Total Spending",
+    "net_amount": "Net Amount",
+    "submit": "Submit (Draft)",
+    "approve_first": "First Approval",
+    "confirm_final": "Final Confirmation",
+    "reject": "Reject",
+    "download_receipt": "Download Receipt PDF",
+    "download_delegation": "Download Delegation PDF",
+    "status": {
+      "draft": "Draft",
+      "submitted": "Submitted",
+      "first_approved": "First Approved",
+      "final_confirmed": "Final Confirmed"
+    }
+  },
+  "spending": {
+    "add": "Add Spending Item",
+    "category": "Category",
+    "description": "Description",
+    "amount": "Amount (USD)",
+    "date": "Date",
+    "categories": {
+      "hospital": "Hospital",
+      "sim_card": "SIM Card",
+      "transport": "Transport",
+      "accommodation": "Accommodation",
+      "food": "Food",
+      "other": "Other"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "total_models": "Total Models",
+    "active_models": "Active Models",
+    "today_schedules": "Today's Schedules",
+    "pending_settlements": "Pending Settlements",
+    "monthly_earning": "Monthly Earning",
+    "visa_expiring": "Visa Expiring Soon",
+    "upcoming_arrivals": "Upcoming Arrivals",
+    "upcoming_departures": "Upcoming Departures"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "confirm": "Confirm",
+    "search": "Search",
+    "loading": "Loading...",
+    "no_data": "No data available.",
+    "success": "Successfully processed.",
+    "error": "An error occurred.",
+    "actions": "Actions"
+  }
+}
