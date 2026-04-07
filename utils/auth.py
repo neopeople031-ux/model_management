@@ -55,10 +55,13 @@ def login_with_google():
     supabase = get_supabase_client()
 
     try:
+        import os
+        redirect_url = os.environ.get("SITE_URL", "http://localhost:8501")
+        
         response = supabase.auth.sign_in_with_oauth({
             "provider": "google",
             "options": {
-                "redirect_to": "http://localhost:8501",
+                "redirect_to": redirect_url,
                 "query_params": {
                     "access_type": "offline",
                     "prompt": "consent",
